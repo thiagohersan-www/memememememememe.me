@@ -1,0 +1,27 @@
+$DESKTOP-WIDTH-SITE: 1280px;
+
+$COLUMN-WIDTH: $DESKTOP-WIDTH-SITE/5;
+$COLUMN-HORIZONTAL-BORDER: 10px;
+
+$LIST-IMAGE-HEIGHT: 270px;
+
+$VERTICAL-SECTION-SPACING: 40px;
+$HORIZONTAL-ITEM-SPACING: 25px;
+$MENU-HORIZONTAL-ITEM-SPACING: 50px;
+$LATERAL-POST-SPACE: 25px;
+
+$TRANSITION-PERIOD: 0.25s;
+
+
+$one_column: (1 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
+$two_columns: (2 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
+$three_columns: (3 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
+
+@mixin media-query($canvas) {
+  @if $canvas == TWO {
+   @media only screen and (min-width: $two_columns) { @content; }
+  }
+  @else if $canvas == THREE {
+   @media only screen and (min-width: $three_columns) { @content; }
+  }
+}

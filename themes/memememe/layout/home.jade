@@ -1,0 +1,14 @@
+extends _partial/base.jade
+
+block content
+  header
+    img()
+  #post-list.post-list-container
+    each post in page.posts
+      a.post-list-item(href='#{page.url}#{post.url}')
+        .post-image-container
+          .post-header #{post.year}
+          .post-image
+            img(src="#{post.cover}" alt='#{post.title}' title='#{post.title}')
+          .post-footer #{post.daymonth}
+        .post-title-container #{post.title}
