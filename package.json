@@ -1,0 +1,21 @@
+{
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "hexo": {
+    "version": "3.2.2"
+  },
+  "dependencies": {
+    "hexo": "^3.2.0",
+    "hexo-front-matter": "^0.2.3",
+    "hexo-renderer-jade": "^0.3.0",
+    "hexo-renderer-marked": "^0.2.10",
+    "hexo-renderer-sass": "^0.2.0",
+    "hexo-renderer-stylus": "^0.3.1",
+    "hexo-server": "^0.2.0"
+  },
+  "scripts": {
+    "start": "hexo clean; sed 's/ROOT_OF_SITE/localhost:4444/g' _config.example.yml > _config.yml; ./python/genLists.py; hexo server -p 4444",
+    "generate": "hexo clean; sed 's/ROOT_OF_SITE/thiagohersan.com/g' _config.example.yml > _config.yml; ./python/genLists.py; hexo generate"
+  }
+}

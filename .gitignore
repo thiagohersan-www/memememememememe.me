@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+index.md
+!source/index.md
+!source/contact/index.md
+_config.yml
