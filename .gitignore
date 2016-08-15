@@ -6,6 +6,6 @@ node_modules/
 public/
 .deploy*/
 index.md
-!source/index.md
-!source/contact/index.md
+!source/about/index.md
+!source/resources/index.md
 _config.yml
