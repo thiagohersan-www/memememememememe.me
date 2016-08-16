@@ -4,7 +4,7 @@ title: Training Haar Cascades
 description: how to generate OpenCV Haar Cascade detection models
 url: training-haar-cascades/
 date: 2014-08-14T16:21:41
-cover: /assets/covers/training-haar.jpg
+cover: /assets/posts/training-haar-cascades/training-haar.jpg
 ---
 For better or worse, most cell phones and digital cameras today can detect human faces, and, as seen in [our previous post](/post/android-opencv/), it doesn't take too much effort to get simple face detection code running on an Android phone (or any other platform), using [OpenCV](http://opencv.org/).
 

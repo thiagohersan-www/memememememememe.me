@@ -4,7 +4,7 @@ title: Project Proposal (VIDA 15.0)
 description: original project proposal
 url: project-proposal-vida-15-0/
 date: 2013-07-09T09:01:46
-cover: /assets/covers/project-proposal.jpg
+cover: /assets/posts/project-proposal-vida-15-0/project-proposal.jpg
 ---
 Up until the beginning of the 2000’s, many social psychologists and anthropologists were optimistic about potential benefits brought by mobile communication technologies. In Evolution, Alienation and Gossip, Kate Fox talks about the importance of gossiping; from its role in language evolution to its social and psychological benefits, and links it to mobile text messaging. There was some evidence that suggested that the use of mobile texting was actually strengthening and promoting tighter social interactions in the “fast-paced modern world.”
 

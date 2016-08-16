@@ -4,7 +4,7 @@ title: 'memememe#selfie'
 description: a sculpture
 url: memememe-selfie/
 date: 2014-09-09T17:05:05
-cover: /assets/covers/memememe-selfie.jpg
+cover: /assets/posts/memememe-selfie/memememe-selfie.jpg
 ---
 
 <div class="align-right">

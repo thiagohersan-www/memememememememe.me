@@ -4,7 +4,7 @@ title: On Conversation
 description: notes about conversation, interaction and cybernetics
 url: on-conversation/
 date: 2014-08-22T03:26:45
-cover: /assets/covers/on-conversation.jpg
+cover: /assets/posts/on-conversation/on-conversation.jpg
 ---
 When thinking about communication of any sort, I always find myself coming back to this pair of articles by [Hugh Dubberly](http://www.dubberly.com/author/hugh) and [Paul Pangaro](http://www.pangaro.com/): 
 

@@ -4,7 +4,7 @@ title: About
 description: about the project, the residency and our friends
 url: about/
 date: 2014-07-12T07:26:56
-cover: /assets/covers/about.jpg
+cover: /assets/posts/about/about.jpg
 ---
 memememe is a project by [Radamés Ajna](http://radames.in) and [Thiago Hersan](http://www.thiagohersan.com/)
 

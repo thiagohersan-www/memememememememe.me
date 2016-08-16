@@ -4,7 +4,7 @@ title: Making These Things Talk
 description: using sound to exchange information
 url: making-these-things-talk/
 date: 2014-10-10T20:32:28
-cover: /assets/covers/making-these.jpg
+cover: /assets/posts/making-these-things-talk/making-these.jpg
 ---
 After self-recognition and awareness, but before any real engagement, the phones must open a channel for communication, and commit to exchange data. Humans and other animals do this in a variety of ways using body language and sounds, and it can be as simple as acknowledging the presence of the other party, and recognizing this acknowledgement. As absurd as it might sound, in this case, each phone must be able to let other phones know when they know that they’ve been seen!
 

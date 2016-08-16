@@ -79,7 +79,7 @@ if __name__ == "__main__":
             out.write("description: %s\n"%description)
             out.write("url: %s/\n"%outputFileName)
             out.write("date: %s\n"%sub(r"\+[0-9:]+","",p['date']))
-            out.write("cover: /assets/covers/%s.jpg\n"%coverFileName)
+            out.write("cover: /assets/posts/%s/%s.jpg\n"%(outputFileName, coverFileName))
             out.write("---\n")
             # add image paths
             thisContent = sub(r"\!\[\]\((.*?)\)", r"![](/assets/posts/%s/\1)"%outputFileName, p['content'])

@@ -28,7 +28,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-default_cover: /assets/covers/memememe.jpg
+default_cover: /assets/posts/the-stewart-platform/memememe2.jpg
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase

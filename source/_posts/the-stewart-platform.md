@@ -4,7 +4,7 @@ title: The Stewart Platform
 description: using Stewart Platforms for moving the phones
 url: the-stewart-platform/
 date: 2014-07-11T06:51:43
-cover: /assets/covers/the-stewart.jpg
+cover: /assets/posts/the-stewart-platform/the-stewart.jpg
 ---
 After considering designing a couple of robotic arms to hold the cell phones, we decided to use Stewart Platforms instead.
 

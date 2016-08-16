@@ -4,7 +4,7 @@ title: Movement 1.0
 description: automatic movement experiments
 url: movement-1-0/
 date: 2014-08-31T05:32:32
-cover: /assets/covers/movement-1-0.jpg
+cover: /assets/posts/movement-1-0/movement-1-0.jpg
 ---
 After figuring out the [motor protocol](/post/the-dynamixel-ax-12a-servos/) and how to [control the stewart platform](/post/controlling-a-stewart-platform/), we could finally start to give the phones some personality and movement.
 

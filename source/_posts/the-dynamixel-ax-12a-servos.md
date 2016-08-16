@@ -4,7 +4,7 @@ title: The Dynamixel AX-12A Servos
 description: using Dynamixel AX-12A servo motors
 url: the-dynamixel-ax-12a-servos/
 date: 2014-07-12T18:42:51
-cover: /assets/covers/the-dynamixel-ax.jpg
+cover: /assets/posts/the-dynamixel-ax-12a-servos/the-dynamixel-ax.jpg
 ---
 We decided to experiment with some [Dynamixel AX-12A servos](http://www.trossenrobotics.com/dynamixel-ax-12-robot-actuator.aspx) for this project. Despite being a little bit more expensive, this motor has a couple of advantages over the more commonly found [TowerPro motors](http://www.servodatabase.com/servo/towerpro/mg996r).
 

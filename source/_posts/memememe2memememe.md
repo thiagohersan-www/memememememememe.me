@@ -4,7 +4,7 @@ title: memememe2memememe
 description: another sculpture
 url: memememe2memememe/
 date: 2014-10-30T22:16:25
-cover: /assets/covers/memememe2memememe.jpg
+cover: /assets/posts/memememe2memememe/memememe2memememe.jpg
 ---
 From their initial transformation of metal and silicon into objects of desire, infused with social significance and "intelligence", personalized with biases and ideology, endowed with a flawless memory, always a call away from the mothership... it becomes difficult to declare who - phone or human - has the more complex cultural heritage.
 
