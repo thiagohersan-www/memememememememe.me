@@ -48,8 +48,9 @@ if __name__ == "__main__":
                 out.write(tabString+pKey+": "+pVal+"\n")
                 if(pKey == 'date'):
                   mDate = datetime.strptime(pVal, '%Y-%m-%dT%H:%M:%S')
-                  out.write(tabString+"year: %s\n"%mDate.year)
-                  out.write(tabString+"daymonth: %s %s\n"%(mDate.strftime('%d'), mDate.strftime('%b')))
+                  out.write(tabString+"daymonthyear: %s-%s-%s\n"%(mDate.strftime('%d'),
+                                                                  mDate.strftime('%b'),
+                                                                  mDate.strftime('%y')))
                 tabString = "    "
         out.write("---\n")
         out.close()

@@ -8,8 +8,7 @@ block content
     each post in page.posts
       a.post-list-item(href='#{page.url}#{post.url}')
         .post-image-container
-          .post-header #{post.year}
+          .post-header #{post.daymonthyear}
           .post-image
             img(src="#{post.cover}" alt='#{post.title}' title='#{post.title}')
-          .post-footer #{post.daymonth}
-        .post-title-container #{post.title}
+            .post-title-container #{post.title}

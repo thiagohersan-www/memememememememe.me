@@ -17,6 +17,7 @@ $TRANSITION-PERIOD: 0.25s;
 $one_column: (1 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
 $two_columns: (2 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
 $three_columns: (3 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
+$home_three_columns: (4 * $DESKTOP-WIDTH-SITE/6) + (2 * $COLUMN-HORIZONTAL-BORDER);
 
 @mixin media-query($canvas) {
   @if $canvas == TWO {
