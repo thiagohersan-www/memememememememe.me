@@ -22,11 +22,11 @@ body {
     justify-content: space-between;
   }
 
-  margin-bottom: $VERTICAL-SECTION-SPACING;
+  margin-bottom: $MENU-VERTICAL-MARGIN;
   border-bottom: 3px $menu-line solid;
 
   @include media-query(THREE) {
-    margin-top: $VERTICAL-SECTION-SPACING;
+    margin-top: $MENU-VERTICAL-MARGIN;
     padding: 0 $MENU-HORIZONTAL-ITEM-SPACING;
     a+a {
       padding-left: $MENU-HORIZONTAL-ITEM-SPACING;
@@ -64,9 +64,9 @@ body {
   flex-direction: column;
   -webkit-align-items: center;
   align-items: center;
-  margin: 0 $LATERAL-POST-SPACE/2;
+  margin: 0 $PAGE-LATERAL-SPACE/2;
   @include media-query(THREE) {
-    margin: 0 $LATERAL-POST-SPACE;
+    margin: 0 $PAGE-LATERAL-SPACE;
   }
 
   .video-wrapper-16x9 {
@@ -132,7 +132,7 @@ body {
 #home-header {
   width: 100%;
   .video-wrapper {
-    margin: 0 0 25px;
+    margin: 0;
   }
 }
 
@@ -144,16 +144,13 @@ body {
   -webkit-justify-content: space-around;
   justify-content: space-around;
 
+  margin-top: $HOME-VERTICAL-SPACING;
   border-top: 3px $menu-line solid;
-  padding-top: $VERTICAL-ITEM-SPACING;
+  padding-top: $HOME-VERTICAL-SPACING;
 
-  max-width: $one_column;
-  @include media-query(TWO) {
-    max-width: $two_columns;
+  @include media-query(THREE) {
     -webkit-justify-content: space-between;
     justify-content: space-between;
-  }
-  @include media-query(THREE) {
     max-width: $three_columns;
   }
 
@@ -166,7 +163,7 @@ body {
     justify-content: flex-start;
 
     position: relative;
-    margin-bottom: $VERTICAL-ITEM-SPACING;
+    margin-bottom: $HOME-VERTICAL-SPACING;
 
     &:hover {
       img {
@@ -180,14 +177,13 @@ body {
     top: 0;
     left: -80px;
     height: 100%;
-    border-radius: 5px;
     transition: opacity $TRANSITION-PERIOD linear;
   }
 
   .post-image {
     position: relative;
     width: 200px;
-    height: $LIST-IMAGE-HEIGHT;
+    height: $HOME-IMAGE-HEIGHT;
     overflow: hidden;
   }
 
@@ -220,25 +216,6 @@ body {
     transition: opacity $TRANSITION-PERIOD linear;
     &:hover {
       opacity: 0.6;
-    }
-  }
-}
-
-#social-footer {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
-
-  margin: $VERTICAL-SECTION-SPACING 0;
-  @include media-query(TWO) {
-    margin: $VERTICAL-SECTION-SPACING 0;
-  }
-
-  .social-icon {
-    padding: 0 $HORIZONTAL-ITEM-SPACING/2;
-    @include media-query(TWO) {
-      padding: 0 $HORIZONTAL-ITEM-SPACING;
     }
   }
 }
