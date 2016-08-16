@@ -1,0 +1,43 @@
+---
+layout: post
+title: Movement 1.0
+description: automatic movement experiments
+url: movement-1-0/
+date: 2014-08-31T05:32:32
+cover: /assets/covers/movement-1-0.jpg
+---
+After figuring out the [motor protocol](/post/the-dynamixel-ax-12a-servos/) and how to [control the stewart platform](/post/controlling-a-stewart-platform/), we could finally start to give the phones some personality and movement.
+
+![](/assets/posts/movement-1-0/motorSpeeds_flip.jpg)
+
+We started by writing a simple [linear movement engine](https://github.com/thiagohersan/memememe/blob/f1f944953def895a2dc52f67a0959e1f22821cdd/Python/selfieMemememe/stewartPlatform.py#L100-L143) that basically just picked some positions based on a couple of parameters like distance and which axes to rotate and translate. The speed and how many times it repeats the same movement are also parameters for this engine. It's simple and it looks kind of robotic:
+
+<div class="video-wrapper video-wrapper-16x9">
+  <iframe src="//www.youtube.com/embed/DjrFra37P94?rel=0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+In order to get more smooth and natural-looking transitions, we decided to integrate some [Perlin Noise](http://en.wikipedia.org/wiki/Perlin_noise) into the movement. We used a simple 3-dimensional flow field simulator, where Perlin Noise is used to determine the speed and the direction of the next move at any given time and location. We first simulated the algorithm using [Processing](http://processing.org/), in order to refine some parameters:
+
+<div class="video-wrapper-wrapper-small">
+  <div class="video-wrapper video-wrapper-4x3">
+    <iframe width="700" height="540" src="//www.youtube.com/embed/ichxiPvFT8w?rel=0" frameborder="0" allowfullscreen=""></iframe>
+  </div>
+</div>
+
+Then, implemented it in [Python](https://github.com/thiagohersan/memememe/blob/f1f944953def895a2dc52f67a0959e1f22821cdd/Python/selfieMemememe/stewartPlatform.py#L155-L214), and tested it on the actual platform:
+
+<div class="video-wrapper video-wrapper-16x9">
+  <iframe src="//www.youtube.com/embed/gmIEkHvevC8?rel=0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+The previous video only shows the effect of the Perlin noise flow field on the translation parameters (how the platform moves in the x, y and z planes), but it doesn't show the effects on rotation (how it pitches, yaws and rolls). This video shows the effects of the Perlin noise on rotation as well as translation:
+
+<div class="video-wrapper video-wrapper-16x9">
+  <iframe src="//www.youtube.com/embed/U6wuGrdqWXY?rel=0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+After adjusting the Perlin noise and the flow field parameters, and picking a slower overall speed, we can get the movement to look something like this:
+
+<div class="video-wrapper video-wrapper-16x9">
+  <iframe src="//www.youtube.com/embed/RxRfr7Ofx24?rel=0" frameborder="0" allowfullscreen=""></iframe>
+</div>
