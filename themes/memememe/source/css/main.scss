@@ -103,6 +103,8 @@ body {
 }
 
 #post {
+  width: 100%;
+
   @include media-query(THREE) {
     max-width: $three_columns;
   }
