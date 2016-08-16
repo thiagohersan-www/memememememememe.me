@@ -7,6 +7,9 @@ $family-mono: 'Source Code Pro', 'Courier New';
 
 $menu-size: 1.5em;
 $menu-size-small: 1.1em;
+
+$home-title-size: 1.15rem;
+
 $project-title-size: 1.5rem;
 $text-size: 1.2rem;
 $detail-size: 1.1rem;
@@ -113,6 +116,30 @@ $code-responsive-size: 2.5vw;
     color: #0f0;
     @include media-query(THREE) {
       font-size: $text-size;
+    }
+  }
+
+  #post-list {
+    .post-image-container {
+      font: bold $project-title-size $family-sans;
+      font-weight: 900;
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .post-title-container {
+      font: bold $home-title-size $family-sans;
+      font-weight: 900;
+      text-decoration: none;
+      color: #000;
+      cursor: pointer;
+      text-transform: uppercase;
+
+      left: $home-title-size*2;
+      text-align: center;
     }
   }
 
