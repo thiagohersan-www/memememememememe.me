@@ -50,7 +50,7 @@ if __name__ == "__main__":
                   mDate = datetime.strptime(pVal, '%Y-%m-%dT%H:%M:%S')
                   out.write(tabString+"daymonthyear: %s-%s-%s\n"%(mDate.strftime('%d'),
                                                                   mDate.strftime('%b'),
-                                                                  mDate.strftime('%y')))
+                                                                  mDate.strftime('%Y')))
                 tabString = "    "
         out.write("---\n")
         out.close()
