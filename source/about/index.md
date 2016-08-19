@@ -12,4 +12,4 @@ It is the recipient of a [VIDA 15.0 production incentive award](https://vida.fun
 
 Production support is provided by [Autodesk's Workshop at Pier 9](http://www.instructables.com/id/Overview-Access-to-Autodesk-Pier-9-Workshop/) in San Francisco, [Faboratory](http://faboratory.org/) and [Hangar](http://hangar.org/) in Barcelona, and [DM+D](http://dmdphilly.org/) and [The Hacktory](http://www.thehacktory.org/) in Philadelphia.
 
-Inspiration, advising and guidance by [BeatBots](https://www.behance.net/beatbots) in San Francisco.
+Inspiration, advising and guidance by [BeatBots](http://www.beatbots.net/) in San Francisco.
