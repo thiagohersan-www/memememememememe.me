@@ -16,6 +16,6 @@
   },
   "scripts": {
     "start": "hexo clean; sed 's/ROOT_OF_SITE/localhost:4444/g' _config.example.yml > _config.yml; ./python/genLists.py; hexo server -p 4444",
-    "generate": "hexo clean; sed 's/ROOT_OF_SITE/memememememememe.me/g' _config.example.yml > _config.yml; ./python/genLists.py; hexo generate"
+    "generate": "hexo clean; sed 's/ROOT_OF_SITE/memememememememe.me/g' _config.example.yml > _config.yml; ./python/genLists.py; hexo generate; echo \"memememememememe.me\" > public/CNAME"
   }
 }
