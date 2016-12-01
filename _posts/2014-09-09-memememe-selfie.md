@@ -8,7 +8,7 @@ cover: /assets/posts/memememe-selfie/memememe-selfie.jpg
 ---
 ![](/assets/posts/memememe-selfie/memememe-selfie-selfies.jpg)
 
-<div class="align-right">
+<div class="align-right" markdown="1">
   *without conversation, there is no self-and-other*  
   &#45; [Paul Pangaro](http://www.pangaro.com/published/cyb-and-con.html)
 </div>

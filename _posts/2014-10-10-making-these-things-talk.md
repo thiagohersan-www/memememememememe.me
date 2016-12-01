@@ -12,7 +12,7 @@ In order to accomplish this, we developed a simple method for audio communicatio
 
 The first attempt was based on [DTMF](http://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling), the same kind of sounds that phones already use to communicate with each other. The idea was to encode a couple of phrases or letters using sounds made up of two pure sinusoidal waves. The following image of a DTMF waveform clearly shows the two frequencies that make up the sound.
 
-<div class="img-mp3-container">
+<div class="img-mp3-container" markdown="1">
   ![](/assets/posts/making-these-things-talk/FreqDTMF00.png)
   <audio controls src="/assets/posts/making-these-things-talk/DTMF.mp3"></audio>
 </div>
@@ -27,7 +27,7 @@ We also tried to detect tone differences instead of specific tones. In this tech
 
 This was motivated by the intuition that if the tones could skip around the spectrum, maybe they would be less susceptible to ambient noise. The following picture shows the waveform of one of these "skipping frequency-difference" sounds, and in it we can see the points where the two frequencies change.
 
-<div class="img-mp3-container">
+<div class="img-mp3-container" markdown="1">
   ![](/assets/posts/making-these-things-talk/FreqDiff00.png)
   <audio controls src="/assets/posts/making-these-things-talk/FreqDiff.mp3"></audio>
 </div>
@@ -36,12 +36,12 @@ While these sounds might be less susceptible to ambient noise interference, calc
 
 So, instead of detecting specific tones or tone differences, we decided to detect quick changes in pitch. This way the specific frequencies are not as important and we can use frequencies that minimize ambient interference. For our particular language made up of two phrases, this means we can get away with simple sequences of rising and falling pitches. For example, a sequence of four rising tones can mean one phrase and a sequence of four falling tones the other. This is what the two phrases look like, and sound like.
 
-<div class="img-mp3-container">
+<div class="img-mp3-container" markdown="1">
   ![](/assets/posts/making-these-things-talk/FreqSlideRising.gif)
   <audio controls src="/assets/posts/making-these-things-talk/FreqSlideRising.mp3"></audio>
 </div>
 
-<div class="img-mp3-container">
+<div class="img-mp3-container" markdown="1">
   ![](/assets/posts/making-these-things-talk/FreqSlideFalling.gif)
   <audio controls src="/assets/posts/making-these-things-talk/FreqSlideFalling.mp3"></audio>
 </div>

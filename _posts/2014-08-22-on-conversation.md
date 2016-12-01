@@ -35,7 +35,7 @@ More broadly, what do they want from each other?
 
 According to Pangaro's interpretation of [Gordon Pask's](http://en.wikipedia.org/wiki/Gordon_Pask) [Conversation Theory](http://www.pangaro.com/published/cyb-and-con.html), conversation is not just about the rote transfer of information, it plays a more fundamental role in how we understand ourselves and our environment:
 
-<div class="align-right">
+<div class="align-right" markdown="1">
   *Without conversation, there is no thing.*  
   *We construct ourselves by and through conversation.*  
   *If conversation and identity arise together,  
