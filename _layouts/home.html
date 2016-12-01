@@ -14,16 +14,18 @@
       </header>
       <div id="post-list" class="post-list-container">
         {% for post in site.posts %}
-          <a class="post-list-item" href="{{ post.url }}">
-            <div class="post-image-container">
-              {% assign daymonthyear = post.date | date: "%d-%b-%Y" %}
-              <div class="post-header">{{ daymonthyear }}</div>
-              <div class="post-image">
-                <img src="{{ post.cover }}" alt="{{ post.title }}" title="{{ post.title }}">
-                <div class="post-title-container">{{ post.title }}</div>
+          {% unless post.category == 'draft' %}
+            <a class="post-list-item" href="{{ post.url }}">
+              <div class="post-image-container">
+                {% assign daymonthyear = post.date | date: "%d-%b-%Y" %}
+                <div class="post-header">{{ daymonthyear }}</div>
+                <div class="post-image">
+                  <img src="{{ post.cover }}" alt="{{ post.title }}" title="{{ post.title }}">
+                  <div class="post-title-container">{{ post.title }}</div>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          {% endunless %}
         {% endfor %}
       </div>
     </div>
