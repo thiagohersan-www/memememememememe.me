@@ -6,6 +6,8 @@ url: training-haar-cascades/
 date: 2014-08-14T16:21:41
 cover: /assets/posts/training-haar-cascades/training-haar.jpg
 ---
+![](/assets/posts/training-haar-cascades/haarTester40843.jpg)
+
 For better or worse, most cell phones and digital cameras today can detect human faces, and, as seen in [our previous post](/post/android-opencv/), it doesn't take too much effort to get simple face detection code running on an Android phone (or any other platform), using [OpenCV](http://opencv.org/).
 
 This is all thanks to the Viola-Jones algorithm for face detection, using Haar-based cascade classifiers. There is lots of information about this online, but a [very nice explanation can be found on the OpenCV website](http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html).
@@ -138,8 +140,6 @@ It's basically the same command, but with *-numStages* set to 10.
 Some initial tests on a laptop computer, using [ofxCv](https://github.com/kylemcdonald/ofxCv/tree/master/example-face):
 
 ![](/assets/posts/training-haar-cascades/haarTester36868.jpg)
-
-![](/assets/posts/training-haar-cascades/haarTester40843.jpg)
 
 Nice !!!
 

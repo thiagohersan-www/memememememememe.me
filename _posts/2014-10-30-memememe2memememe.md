@@ -6,6 +6,8 @@ url: memememe2memememe/
 date: 2014-10-30T22:16:25
 cover: /assets/posts/memememe2memememe/memememe2memememe.jpg
 ---
+![](/assets/posts/memememe2memememe/meme2memeSelfies.jpg)
+
 From their initial transformation of metal and silicon into objects of desire, infused with social significance and "intelligence", personalized with biases and ideology, endowed with a flawless memory, always a call away from the mothership... it becomes difficult to declare who - phone or human - has the more complex cultural heritage.
 
 memememe2memememe is a sculpture that celebrates the ambiguities of human/object, user/interface and actor/network relationships. It is an app that removes phones from their anthropocentric usefulness, and gives them the beginnings of a language. [Residues of their conversations](http://memememe2memememe.tumblr.com/) can be seen, but certainly not understood.

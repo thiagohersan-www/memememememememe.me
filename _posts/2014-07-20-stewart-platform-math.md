@@ -6,6 +6,8 @@ url: stewart-platform-math/
 date: 2014-07-20T17:47:52
 cover: /assets/posts/stewart-platform-math/stewart-platform.jpg
 ---
+![](/assets/posts/stewart-platform-math/StewartSimulator.png)
+
 We tested our [AX-12A library](https://github.com/thiagohersan/memememe/tree/master/Python/ax12) and motor driver circuit using one of the motors attached to our platform. We quickly realized that the servos on the platform can't be driven independently of each other; in most cases, all six motors have to move simultaneously in order to achieve any desired position or pose.
 
 This is a video showing how all the motors are affected when we drive only one motor up and down:

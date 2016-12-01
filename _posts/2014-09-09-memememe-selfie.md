@@ -6,6 +6,7 @@ url: memememe-selfie/
 date: 2014-09-09T17:05:05
 cover: /assets/posts/memememe-selfie/memememe-selfie.jpg
 ---
+![](/assets/posts/memememe-selfie/memememe-selfie-selfies.jpg)
 
 <div class="align-right">
   *without conversation, there is no self-and-other*  

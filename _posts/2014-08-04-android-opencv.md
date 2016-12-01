@@ -6,6 +6,8 @@ url: android-opencv/
 date: 2014-08-04T09:47:36
 cover: /assets/posts/android-opencv/android-opencv.jpg
 ---
+![](/assets/posts/android-opencv/haarFaceTest00.png)
+
 Finally getting our feet wet running OpenCV on an Android device... 
 
 Good news!!! The OpenCV people have a framework that simplifies writing, compiling and running OpenCV 2.4 apps for Android devices. You no longer have to [download OpenCV source and (cross-)compile it like it's 2010](http://www.morethantechnical.com/2010/10/07/opencv2-1-on-android).
@@ -32,8 +34,6 @@ The [OpenCV Manager](https://play.google.com/store/apps/details?id=org.opencv.en
 
 After this, we tested the face detection example on some still images and on ourselves:
   
-![](/assets/posts/android-opencv/haarFaceTest00.png)
-
 ![](/assets/posts/android-opencv/haarFaceTest01.png)
 
 Money! Even in the dark! On an old phone with Android 2.3.4!

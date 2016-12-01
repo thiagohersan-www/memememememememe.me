@@ -6,12 +6,12 @@ url: on-conversation/
 date: 2014-08-22T03:26:45
 cover: /assets/posts/on-conversation/on-conversation.jpg
 ---
+![](/assets/posts/on-conversation/conversation_agreement_wide.png) *(image from Paul Pangaro and Hugh Dubberly's [What is conversation?](http://www.dubberly.com/wp-content/uploads/2009/05/ddo_article_whatisconversation.pdf))*
+
 When thinking about communication of any sort, I always find myself coming back to this pair of articles by [Hugh Dubberly](http://www.dubberly.com/author/hugh) and [Paul Pangaro](http://www.pangaro.com/): 
 
   &#45; [What is Interaction?](http://www.dubberly.com/articles/what-is-interaction.html)  
   &#45; [What is Conversation?](http://www.dubberly.com/articles/what-is-conversation.html)
-
-![](/assets/posts/on-conversation/conversation_agreement_wide.png) *(image from Paul Pangaro and Hugh Dubberly's [What is conversation?](http://www.dubberly.com/wp-content/uploads/2009/05/ddo_article_whatisconversation.pdf))*
 
 As formal and detailed as they may seem, they do provide some great insight and an organizational framework for exploring these topics from a systems theory and design perspective. The systems-based classification of interactions on the [first article](http://www.dubberly.com/articles/what-is-interaction.html) is ingenious, and pretty useful when trying to structure any kind of interactive, reactive or robotic project.
 

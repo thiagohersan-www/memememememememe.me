@@ -6,9 +6,9 @@ url: first-communication-test/
 date: 2014-07-28T06:28:45
 cover: /assets/posts/first-communication-test/first.jpg
 ---
-After some work doing the math and the simulator, we finally got real-time communication going between our simulator and the platform. But, not before re-orienting some of the servo horns (because the AX-12A motors only rotate about 300&deg;), and writing some code to transform angles into AX12-A motor commands.
-
 ![](/assets/posts/first-communication-test/NapkinMath01.jpg)
+
+After some work doing the math and the simulator, we finally got real-time communication going between our simulator and the platform. But, not before re-orienting some of the servo horns (because the AX-12A motors only rotate about 300&deg;), and writing some code to transform angles into AX12-A motor commands.
 
 Here is a video with the screenshot of the simulator plus the platform.
 

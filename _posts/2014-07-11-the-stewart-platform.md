@@ -6,13 +6,13 @@ url: the-stewart-platform/
 date: 2014-07-11T06:51:43
 cover: /assets/posts/the-stewart-platform/the-stewart.jpg
 ---
+![](/assets/posts/the-stewart-platform/memememe2.png)
+
 After considering designing a couple of robotic arms to hold the cell phones, we decided to use Stewart Platforms instead.
 
 I think this will give us a broader range of expressive movements, without having to move the phones large distances, and it also gives the structure a more abstract physical look; one that isn't so easily anthropomorphized.
 
 Here are some sketches done in [Fusion 360](http://fusion360.autodesk.com/).
-
-![](/assets/posts/the-stewart-platform/memememe2.png)
 
 ![](/assets/posts/the-stewart-platform/memememe5.png)
 

@@ -6,9 +6,9 @@ url: the-dynamixel-ax-12a-servos/
 date: 2014-07-12T18:42:51
 cover: /assets/posts/the-dynamixel-ax-12a-servos/the-dynamixel-ax.jpg
 ---
-We decided to experiment with some [Dynamixel AX-12A servos](http://www.trossenrobotics.com/dynamixel-ax-12-robot-actuator.aspx) for this project. Despite being a little bit more expensive, this motor has a couple of advantages over the more commonly found [TowerPro motors](http://www.servodatabase.com/servo/towerpro/mg996r).
-
 ![](/assets/posts/the-dynamixel-ax-12a-servos/Hangar06.jpg)
+
+We decided to experiment with some [Dynamixel AX-12A servos](http://www.trossenrobotics.com/dynamixel-ax-12-robot-actuator.aspx) for this project. Despite being a little bit more expensive, this motor has a couple of advantages over the more commonly found [TowerPro motors](http://www.servodatabase.com/servo/towerpro/mg996r).
 
 Mainly, the Dynamixel motors are stronger, daisy chainable, and have a [robust control system](http://support.robotis.com/en/techsupport_eng.htm#product/dynamixel/ax_series/dxl_ax_actuator.htm) that reports position, temperature, torque, etc...
 
