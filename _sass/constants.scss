@@ -1,0 +1,42 @@
+$BACKGROUND: rgba(255,255,255,1);
+
+$TEXT-BASE: rgba(0,0,0,1);
+$TITLE-COLOR: lighten($TEXT-BASE, 10%);
+$TEXT-COLOR: lighten($TEXT-BASE, 33%);
+
+$LINK-COLOR: rgba(64,144,254,1);
+$LINK-COLOR-VISITED: $LINK-COLOR;
+$LINK-COLOR-HOVER: lighten($LINK-COLOR, 20%);
+
+$MENU: $TITLE-COLOR;
+$MENU-HOVER: lighten($MENU, 50%);
+$MENU-LINE: lighten($MENU-HOVER, 10%);
+
+$DESKTOP-WIDTH-SITE: 1280px;
+
+$COLUMN-WIDTH: $DESKTOP-WIDTH-SITE/5;
+$COLUMN-HORIZONTAL-BORDER: 10px;
+
+$MENU-HORIZONTAL-ITEM-SPACING: 50px;
+$MENU-VERTICAL-MARGIN: 40px;
+$PAGE-LATERAL-SPACE: 25px;
+
+$HOME-VERTICAL-SPACING: 45px;
+$HOME-IMAGE-HEIGHT: 270px;
+$HOME-BORDER-RADIUS: 16px;
+
+$TRANSITION-PERIOD: 0.25s;
+
+$one_column: (1 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
+$two_columns: (2 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
+$three_columns: (3 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
+$home_three_columns: (4 * $DESKTOP-WIDTH-SITE/6) + (2 * $COLUMN-HORIZONTAL-BORDER);
+
+@mixin media-query($canvas) {
+  @if $canvas == TWO {
+   @media only screen and (min-width: $two_columns) { @content; }
+  }
+  @else if $canvas == THREE {
+   @media only screen and (min-width: $three_columns) { @content; }
+  }
+}
