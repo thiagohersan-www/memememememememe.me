@@ -16,7 +16,7 @@
         {% for post in site.posts %}
           <a class="post-list-item" href="{{ post.url }}">
             <div class="post-image-container">
-              {% assign daymonthyear = "10-OCT-2016" %}
+              {% assign daymonthyear = post.date | date: "%d-%b-%Y" %}
               <div class="post-header">{{ daymonthyear }}</div>
               <div class="post-image">
                 <img src="{{ post.cover }}" alt="{{ post.title }}" title="{{ post.title }}">
