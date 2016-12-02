@@ -2,9 +2,7 @@
 layout: post
 title: First Communication Test
 description: Stewart Platform communication tests
-url: first-communication-test/
 date: 2014-07-28T06:28:45
-cover: /assets/posts/first-communication-test/first.jpg
 ---
 ![](/assets/posts/first-communication-test/NapkinMath01.jpg)
 

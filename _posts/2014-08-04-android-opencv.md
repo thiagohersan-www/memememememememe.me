@@ -2,9 +2,7 @@
 layout: post
 title: 'Android + OpenCV = ♥ ♥ ♥'
 description: using OpenCV Haar Cascade face detection on an Android phone
-url: android-opencv/
 date: 2014-08-04T09:47:36
-cover: /assets/posts/android-opencv/android-opencv.jpg
 ---
 ![](/assets/posts/android-opencv/haarFaceTest00.png)
 

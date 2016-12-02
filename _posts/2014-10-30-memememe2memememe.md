@@ -2,9 +2,7 @@
 layout: post
 title: memememe2memememe
 description: another sculpture
-url: memememe2memememe/
 date: 2014-10-30T22:16:25
-cover: /assets/posts/memememe2memememe/memememe2memememe.jpg
 ---
 ![](/assets/posts/memememe2memememe/meme2memeSelfies.jpg)
 

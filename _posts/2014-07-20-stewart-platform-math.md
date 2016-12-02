@@ -2,9 +2,7 @@
 layout: post
 title: Stewart Platform Math
 description: understanding the Stewart Platform
-url: stewart-platform-math/
 date: 2014-07-20T17:47:52
-cover: /assets/posts/stewart-platform-math/stewart-platform.jpg
 ---
 ![](/assets/posts/stewart-platform-math/StewartSimulator.png)
 

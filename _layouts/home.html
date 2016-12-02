@@ -20,7 +20,8 @@
                 {% assign daymonthyear = post.date | date: "%d-%b-%Y" %}
                 <div class="post-header">{{ daymonthyear }}</div>
                 <div class="post-image">
-                  <img src="{{ post.cover }}" alt="{{ post.title }}" title="{{ post.title }}">
+                  {% assign assets = "/assets" | append: post.url | replace: "/post/", "/posts/" %}
+                  <img src="{{ assets }}cover.jpg" alt="{{ post.title }}" title="{{ post.title }}">
                   <div class="post-title-container">{{ post.title }}</div>
                 </div>
               </div>

@@ -2,9 +2,7 @@
 layout: post
 title: Project Proposal (VIDA 15.0)
 description: original project proposal
-url: project-proposal-vida-15-0/
 date: 2013-07-09T09:01:46
-cover: /assets/posts/project-proposal-vida-15-0/project-proposal.jpg
 ---
 ![](/assets/posts/project-proposal-vida-15-0/vida02.png)
 

@@ -2,9 +2,7 @@
 layout: post
 title: The Stewart Platform
 description: using Stewart Platforms for moving the phones
-url: the-stewart-platform/
 date: 2014-07-11T06:51:43
-cover: /assets/posts/the-stewart-platform/the-stewart.jpg
 ---
 ![](/assets/posts/the-stewart-platform/memememe2.png)
 

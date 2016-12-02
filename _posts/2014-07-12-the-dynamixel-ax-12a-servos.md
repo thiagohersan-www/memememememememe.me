@@ -2,9 +2,7 @@
 layout: post
 title: The Dynamixel AX-12A Servos
 description: using Dynamixel AX-12A servo motors
-url: the-dynamixel-ax-12a-servos/
 date: 2014-07-12T18:42:51
-cover: /assets/posts/the-dynamixel-ax-12a-servos/the-dynamixel-ax.jpg
 ---
 ![](/assets/posts/the-dynamixel-ax-12a-servos/Hangar06.jpg)
 

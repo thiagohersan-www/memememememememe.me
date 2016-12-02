@@ -2,9 +2,7 @@
 layout: post
 title: Training Haar Cascades
 description: how to generate OpenCV Haar Cascade detection models
-url: training-haar-cascades/
 date: 2014-08-14T16:21:41
-cover: /assets/posts/training-haar-cascades/training-haar.jpg
 ---
 ![](/assets/posts/training-haar-cascades/haarTester40843.jpg)
 

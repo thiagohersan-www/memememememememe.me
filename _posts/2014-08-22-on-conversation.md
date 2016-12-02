@@ -2,9 +2,7 @@
 layout: post
 title: On Conversation
 description: notes about conversation, interaction and cybernetics
-url: on-conversation/
 date: 2014-08-22T03:26:45
-cover: /assets/posts/on-conversation/on-conversation.jpg
 ---
 ![](/assets/posts/on-conversation/conversation_agreement_wide.png) *(image from Paul Pangaro and Hugh Dubberly's [What is conversation?](http://www.dubberly.com/wp-content/uploads/2009/05/ddo_article_whatisconversation.pdf))*
 
