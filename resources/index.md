@@ -2,9 +2,8 @@
 layout: post
 title: Resources
 description: useful links
-url: resources/
 date: 2014-07-23T01:50:19
-cover: /assets/posts/resources/resources.jpg
+cover: /assets/posts/the-stewart-platform/memememe2.jpg
 ---
 **Dynamixel**  
 [2006 Manual](http://www.trossenrobotics.com/images/productdownloads/AX-12&#40;English&#41;.pdf)  

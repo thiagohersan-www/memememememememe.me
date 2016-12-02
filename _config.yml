@@ -11,14 +11,6 @@ permalink: post/:title/
 markdown: kramdown
 port: 4444
 
-# Jekyll
-defaults:
-  - 
-    scope:
-      path: ""
-    values:
-      cover: /assets/posts/the-stewart-platform/memememe2.jpg
-
 # Data
 social:
   facebook_url: "https://www.facebook.com/thiago.hersan"

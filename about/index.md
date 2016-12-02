@@ -2,9 +2,8 @@
 layout: post
 title: About
 description: about the project, the residency and our friends
-url: about/
 date: 2014-07-12T07:26:56
-cover: /assets/posts/about/about.jpg
+cover: /assets/posts/the-stewart-platform/memememe2.jpg
 ---
 memememe is a project by [Radamés Ajna](http://radames.in) and [Thiago Hersan](http://www.thiagohersan.com/)
 
