@@ -15,7 +15,7 @@
   {% assign coverImagePath = site.url | append: page.cover %}
 {% else %}
   {% assign assets = "/assets" | append: page.url | replace: "/post/", "/posts/" %}
-  {% assign coverImagePath = site.url | append: assets | append: "cover.jpg" %}
+  {% assign coverImagePath = site.url | append: assets | append: "social.jpg" %}
 {% endif %}
 
 <meta name="twitter:image" content="{{coverImagePath}}">
