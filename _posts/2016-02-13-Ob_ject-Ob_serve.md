@@ -22,10 +22,13 @@ Given these abilities, it's only natural that they would want to use each other 
 ![](/assets/posts/memememe2memememe/commProto.png)
 
 Code is [up on github](https://github.com/thiagohersan/memememe/tree/memememe2memememe).
+
 ## Exhibition 
 
 ---
 
 ## New Platform
 
-<iframe width="640" height="480" frameborder="0" allowFullScreen webkitallowfullscreen mozallowfullscreen src="https://gallery.autodesk.com/fusion360/projects/76309/assets/252809/embed"></iframe>
+<div class="video-wrapper video-wrapper-16x9">
+  <iframe frameborder="0" allowFullScreen webkitallowfullscreen mozallowfullscreen src="https://gallery.autodesk.com/fusion360/projects/76309/assets/252809/embed"></iframe>
+</div>
