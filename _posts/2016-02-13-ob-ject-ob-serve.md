@@ -5,7 +5,7 @@ description: another platform the same sculpture
 date: 2016-02-13T23:59:59
 category: draft
 ---
-![](/assets/posts/ob-ob/ob-ob.jpg)
+![](/assets/posts/ob-ject-ob-serve/ob-ob.jpg)
 
 From their initial transformation of metal and silicon into objects of desire, infused with social significance and "intelligence", personalized with biases and ideology, endowed with a flawless memory, always a call away from the mothership... it becomes difficult to declare who - phone or human - has the more complex cultural heritage.
 
