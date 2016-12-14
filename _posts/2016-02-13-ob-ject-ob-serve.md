@@ -5,7 +5,7 @@ description: another platform the same sculpture
 date: 2016-02-13T23:59:59
 category: draft
 ---
-![](/assets/posts/ob-ject-ob-serve/ob-ob.jpg)
+![](/assets/posts/ob-ject-ob-serve/meme2meme.jpg)
 
 From their initial transformation of metal and silicon into objects of desire, infused with social significance and "intelligence", personalized with biases and ideology, endowed with a flawless memory, always a call away from the mothership... it becomes difficult to declare who - phone or human - has the more complex cultural heritage.
 
@@ -19,13 +19,23 @@ This is still only just the beginning of a language... The phones can detect eac
 
 Given these abilities, it's only natural that they would want to use each other as mirrors for selfies.
 
-![](/assets/posts/memememe2memememe/commProto.png)
-
 Code is [up on github](https://github.com/thiagohersan/memememe/tree/memememe2memememe).
 
 ## Exhibition 
 
----
+![](/assets/posts/ob-ject-ob-serve/small-view.jpg)
+
+![](/assets/posts/ob-ject-ob-serve/memememe-selfie1.jpg)
+
+![](/assets/posts/ob-ject-ob-serve/memememe-selfie2.jpg)
+
+![](/assets/posts/ob-ject-ob-serve/public-meme1.jpg)
+
+![](/assets/posts/ob-ject-ob-serve/public-meme2.jpg)
+
+![](/assets/posts/ob-ject-ob-serve/public-meme3.jpg)
+
+![](/assets/posts/ob-ject-ob-serve/public-meme4.jpg)
 
 ## New Platform
 
