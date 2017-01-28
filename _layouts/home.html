@@ -18,7 +18,7 @@
             <a class="post-list-item" href="{{ post.url }}">
               <div class="post-image-container">
                 {% assign daymonthyear = post.date | date: "%d-%b-%Y" %}
-                <div class="post-header">{{ daymonthyear }}</div>
+                <!-- <div class="post-header">{{ daymonthyear }}</div> -->
                 <div class="post-image">
                   {% assign assets = "/assets" | append: post.url | replace: "/post/", "/posts/" %}
                   <img src="{{ assets }}cover.jpg" alt="{{ post.title }}" title="{{ post.title }}">
