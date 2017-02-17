@@ -4,7 +4,7 @@ subtitle: memememememememememememe
 
 # URL
 url: http://memememememememe.me
-baseurl: /
+baseurl: ""
 permalink: post/:title/
 
 # Build settings
@@ -16,3 +16,6 @@ social:
   facebook_url: "https://www.facebook.com/thiago.hersan"
   twitter_url: "https://www.twitter.com/thiagohersan"
   twitter_user: "@thiagohersan"
+
+gems:
+  - jekyll-sitemap
