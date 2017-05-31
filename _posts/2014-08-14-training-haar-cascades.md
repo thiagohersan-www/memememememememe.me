@@ -34,7 +34,7 @@ This is where we gather about 1000 images of non-phones. Some people use video f
 
 `cd negativeImageDirectory
 wget -nd -r -A "neg-0*.jpg" \
-http://www.thiagohersan.com/tmp/haartraining/negatives/`
+http://haar.thiagohersan.com/haartraining/negatives/`
 
 Creating a **collection file** for these is pretty easy using the following command:
 
