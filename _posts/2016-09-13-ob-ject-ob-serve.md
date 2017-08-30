@@ -2,7 +2,7 @@
 layout: post
 title: Ob_ject and Ob_serve 
 description: another platform the same sculpture
-date: 2016-02-13T23:59:59
+date: 2016-09-13T23:59:59
 category: draft
 ---
 ![](/assets/posts/ob-ject-ob-serve/meme2meme.jpg)
