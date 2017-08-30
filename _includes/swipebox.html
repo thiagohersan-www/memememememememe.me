@@ -1,0 +1,17 @@
+{% if page.swipebox %}
+  <div class="swipebox-gallery">
+    {% for file in site.static_files %}
+      {% if file.path contains page.swipebox %}
+        <a href="{{ file.path }}" class="swipebox">
+          <img src="{{ file.path }}" alt="">
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <script type="text/javascript">
+    (function($) {
+      $( '.swipebox' ).swipebox();
+    })(jQuery);
+  </script>
+{% endif %}
