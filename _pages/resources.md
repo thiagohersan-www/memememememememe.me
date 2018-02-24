@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Resources
+permalink: '/resources/'
 description: useful links
-date: 2014-07-23T01:50:19
 cover: /assets/posts/the-stewart-platform/memememe2.jpg
 ---
 **Dynamixel**  

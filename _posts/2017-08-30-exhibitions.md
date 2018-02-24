@@ -25,15 +25,7 @@ Group exhibition at the [Dublin Science Gallery](https://dublin.sciencegallery.c
 
 &quot;*In an automated world, will it be time to put humans out to pasture? Are we hurtling together towards a leisure-time utopia or robot-tended human zoos? [HUMANS NEED NOT APPLY](https://dublin.sciencegallery.com/hnna){:target="_blank"} interrogates the supposedly seismic changes that artificial intelligence is bestowing on society. The works presented in this exhibition explore the idea of computers creating culture, from algorithm-driven artworks to responsive robots and animatronic objects.*&quot;
 
-<div class="swipebox-gallery">
-  {% for file in site.static_files %}
-    {% if file.path contains "hnna_" %}
-      <a href="{{ file.path }}" class="swipebox hnna-gallery">
-        <img src="{{ file.path }}" alt="">
-      </a>
-    {% endif %}
-  {% endfor %}
-</div>
+{% include swipebox.html prefix="hnna_" %}
 
 ## Ob_ject and Ob_serve (Liverpool, 2016)
 
@@ -43,19 +35,4 @@ This was an exhibition we put together for [A Small View](http://asmallview.co.u
 
 &quot;*Given the complex relationships that humans have  with both “natural” systems (as evidenced by global warming), and engineered systems (internet as surveillance), we proposed works that imagined a world without humans, or, at least, a world where the divisions between humans/nonhumans, nature/culture, matter/thought, don’t make as much sense as they used to.*&quot;
 
-<div class="swipebox-gallery">
-  {% for file in site.static_files %}
-    {% if file.path contains "obob_" %}
-      <a href="{{ file.path }}" class="swipebox obob-gallery">
-        <img src="{{ file.path }}" alt="">
-      </a>
-    {% endif %}
-  {% endfor %}
-</div>
-
-<script type="text/javascript">
-  (function($) {
-    $( '.hnna-gallery' ).swipebox();
-    $( '.obob-gallery' ).swipebox();
-  })(jQuery);
-</script>
+{% include swipebox.html prefix="obob_" %}

@@ -6,6 +6,7 @@ subtitle: memememememememememememe
 url: http://memememememememe.me
 baseurl: ""
 permalink: post/:title/
+include: ['_pages']
 
 # Build settings
 markdown: kramdown
@@ -17,5 +18,5 @@ social:
   twitter_url: "https://www.twitter.com/thiagohersan"
   twitter_user: "@thiagohersan"
 
-gems:
+plugins:
   - jekyll-sitemap
